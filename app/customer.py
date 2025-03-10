@@ -1,9 +1,9 @@
 import math
-import dataclasses
+from dataclasses import dataclass
 from app.car import Car
 
 
-@dataclasses.dataclass
+@dataclass
 class Customer:
     name: str
     product_cart: dict

@@ -1,7 +1,7 @@
-import dataclasses
+from dataclasses import dataclass
 
 
-@dataclasses.dataclass
+@dataclass
 class Car:
     brand: str
     fuel_consumption: float

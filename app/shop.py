@@ -1,8 +1,8 @@
-import dataclasses
+from dataclasses import dataclass
 from typing import Dict
 
 
-@dataclasses.dataclass
+@dataclass
 class Shop:
     name: str
     location: list[int, int]
